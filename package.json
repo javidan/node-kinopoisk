@@ -1,0 +1,22 @@
+{
+  "author": "Javidan Guliyev",
+  "name": "Kinopoisk",
+  "description": "Scrapes kinopoisk.ru for searching and getting specified movie information",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javidan/node-kinopoisk.git"
+  },
+  "main": "./lib/kinopoisk",
+  "keywords": [
+    "kinopoisk"
+  ],
+  "dependencies": {
+    "request": "*",
+    "cheerio": "*",
+    "iconv": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
