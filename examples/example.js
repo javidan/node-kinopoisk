@@ -1,4 +1,4 @@
-var kinopoisk = require('../lib/kinopoisk')
+var kinopoisk = require('kinopoisk')
 
 
 kinopoisk.search("Terminator 2", function(searchErr, result){
